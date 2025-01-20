@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { useState } from "react";
 
 const Data = () => {
   let someData = 10;
@@ -14,7 +14,7 @@ const Data = () => {
       <div>
         <p>Valor: {num}</p>
         <button onClick={() => SetNum(num + 1)}>+</button>
-        <button onClick={() => SetNum(num - 1)}>+</button>
+        <button onClick={() => SetNum(num - 1)}>-</button>
       </div>
     </div>
   );
