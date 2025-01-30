@@ -1,0 +1,22 @@
+.container-base {
+  max-width: 450px;
+  min-width: 450px;
+  margin: 0 auto;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+  background-color: var(--color-light);
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Estilo alternativo sem borda, sombra e fundo transparente */
+.no-style {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
